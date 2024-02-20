@@ -1,7 +1,7 @@
-# Python code
+# Python code game for rock paper scissor
 import random
 a=random.randint(0,2)
-b=input("what do you choose? type 0 for rock, 1 for papre or 2 for scissors.\n")
+b=input("what do you choose? type 0 for rock, 1 for paper or 2 for scissors.\n")
 if b==0:
     if a==0:
         print("Draw")
